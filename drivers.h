@@ -11,3 +11,5 @@ void printU2(char* data);
 //Timers
 void initTIM17(void);
 void initTIM(uint32_t tim, uint32_t psc, uint32_t arr, uint8_t irqUsed);
+//SPI
+void initSPI(void);
